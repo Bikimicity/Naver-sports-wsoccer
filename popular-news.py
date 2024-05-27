@@ -54,7 +54,7 @@ data = {'Title': title_texts}
 df = pd.DataFrame(data)
 
 # CSV 파일로 저장
-csv_file_path = os.path.join(download_folder, 'news_titles.csv')
+csv_file_path = os.path.join(download_folder, '해축 타이틀 헤드라인.csv')
 df.to_csv(csv_file_path, index=False)
 
 # 저장된 파일 경로 출력
